@@ -19,7 +19,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	color: #FFF;
-	background-color: var(--dark);
+	background: linear-gradient(to right, var(--pink), var(--purple));
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 header h1{ 
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--light);
 	margin-bottom: 1rem;
 }
 
@@ -60,14 +60,11 @@ input, button {
 #new-task-input::placeholder {
 	color: var(--grey);
 }
-
 #new-task-submit {
-	color: var(--pink);
+	color: red;
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	cursor: pointer;
 	transition: 0.4s;
 }
@@ -94,7 +91,7 @@ main {
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--light);
 	margin-bottom: 1rem;
 }
 
